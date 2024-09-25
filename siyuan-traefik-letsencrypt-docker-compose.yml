@@ -3,7 +3,7 @@
 # The complete installation guide is available on my website https://www.heyvaldemar.com/install-siyuan-using-docker-compose/
 
 # Change variables in the `.env` to meet your requirements.
-# To generate a 256-bit hexadecimal authentication code for the `SIYUAN_AUTH_CODE` variable, use the following OpenSSL command:
+# To generate a 2048-bit hexadecimal authentication code for the `SIYUAN_AUTH_CODE` variable, use the following OpenSSL command:
 # `openssl rand -hex 256`
 # Note that the `.env` file should be in the same directory as `siyuan-traefik-letsencrypt-docker-compose.yml`.
 
